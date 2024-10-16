@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #10009a;
+    padding: 20px 20px;
+}
+.logo{
+    color: #ffffff;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.home{
+    background-color: #446ffd;
+    width: 100%;
+    height: 850px;
+}
+.home h1{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    padding-top: 200px;
+    font-size: 50px;
+   
+}
+.home h2{
+    display: flex;
+    justify-content: center;
+    color: #cce20d;
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tugas{
+    margin-left: 30px;
+}
+.tugas h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.tentang{
+    background-color: #d5d6da;
+    width: 100%;
+    height: 800px;
+}
+.tentang h1{
+    display: flex;
+    justify-content: center;
+}
+.tentang img{
+    width: 300px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.tentang h2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 400px;
+}
+.s{
+    margin-top: 70px;
+}
